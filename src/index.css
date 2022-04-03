@@ -10,26 +10,27 @@ code {
     monospace;
 }
 
-.header {
+nav {
   background-color: #21222A;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
 }
 
-.header > h4 {
-  color: #DEEBF8;
-  padding-right: 10px;
-}
-
-.pg-name {
-  display: flex;
-}
-
-.pg-name .logo {
-  width: 40px;
-}
-.pg-name > h3 {
+.nav--logo_text {
   color: #61DAFB;
   font-weight: bold;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
 }
 
+.nav--title {
+  color: #DEEBF8;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.nav--logo {
+  width: 40px;
+}
