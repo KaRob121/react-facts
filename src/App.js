@@ -4,11 +4,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
+    <div className="container">
+      <Navbar darkMode=""/>
+      <Main darkMode=""/>
     </div>
-  );
+  )
 }
 
 export default App;
